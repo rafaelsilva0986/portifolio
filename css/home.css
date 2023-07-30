@@ -5,6 +5,7 @@
 	height: 100vh;
 	display: flex;
 	justify-content: center;
+	text-align: center;
 }
 
 .img_perfil{
@@ -33,4 +34,16 @@
 .txt_perfil{
 	font-size: 18px;
 	color: #b086eb;
+}
+
+@media (max-width: 768px){
+	.img_perfil{
+		max-width: 200px;
+	}
+	.titulo_perfil{
+		font-size: 25px;
+	}
+	.txt_perfil{
+		font-size: 15px;
+	}
 }

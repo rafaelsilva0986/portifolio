@@ -41,3 +41,15 @@
 .btcurriculo:hover{
 	background-color: #6c579c;
 }
+
+@media (max-width: 768px){
+	.logo{
+		max-width: 50px;
+	}
+	.lista{
+		gap: 20px;
+	}
+	.btcurriculo{
+		padding: 7px 17px;
+	}
+}
