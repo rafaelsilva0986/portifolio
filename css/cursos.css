@@ -1,0 +1,68 @@
+.cursos{
+	border-top: 8px solid #6c579c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 800px;
+	margin: 0 auto;
+	padding-top: 20px;
+	gap: 80px;
+}
+
+.titulo_cursos{
+	font-family: "Press Start 2P", cursive;
+	font-size: 90px;
+	word-wrap: break-word;
+	max-width: 300px;
+}
+
+.lista_cursos{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	padding-top: 20px;
+}
+
+.curso{
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 20px;
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.titulo_curso{
+	font-size: 18px;
+	color: #6c579c;
+	position: relative;
+}
+
+.titulo_curso::before{
+	content: '';
+	width: 10px;
+	height: 25px;
+	background: linear-gradient(
+	90deg, 
+	rgba(0,0,0,1) 0%, 
+	rgba(108,87,156,1) 41%, 
+	rgba(176,134,235,1) 100%);
+	position: absolute;
+	left: -25px;
+	top: -4px;
+	border-radius: 2px;
+}
+
+.subtitulo_curso{
+	color: #b086eb;
+	font-size: 15px;
+}
+
+.txt_curso{
+	line-height: 1.2;
+}
+
+.horas_curso{
+	color: #7c93f6;
+}
+

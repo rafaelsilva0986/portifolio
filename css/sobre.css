@@ -1,0 +1,49 @@
+.sobre{
+	border-top: 8px solid #6c579c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 80px;
+	grid-gap: 40px;
+	padding: 50px 0 0 0;
+}
+
+.sobre_infos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	grid-gap: 20px;
+}
+
+.titulo_sobre_infos{
+	font-size: 45px;
+	font-family: "Press Start 2P", cursive;
+	position: relative;
+
+}
+
+.titulo_sobre_infos::before{
+	content: '';
+	width: 90px;
+	height: 90px;
+	background-image: url('../img/detalhes/detalhe_duplo.png');
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	top: -35px;
+	left: -35px;
+	z-index: -1;
+}
+
+.txt_sobre_infos{
+	line-height: 1.5;
+	font-size: 20px;
+	text-align: center;
+}
+
+.sobre_img{
+	max-width: 350px;
+}
